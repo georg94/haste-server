@@ -23,8 +23,8 @@ haste_document.prototype.load = function(key, callback, lang) {
       _this.locked = true;
       _this.key = key;
       _this.data = res.data;
+      var high;
       try {
-        var high;
         if (lang === 'txt') {
           high = { value: _this.htmlEscape(res.data) };
         }
@@ -275,7 +275,7 @@ haste.prototype.configureButtons = function() {
       $where: $('#box2 .new'),
       label: 'New',
       shortcut: function(evt) {
-        return evt.ctrlKey && evt.keyCode === 78  
+        return evt.ctrlKey && evt.keyCode === 78;
       },
       shortcutDescription: 'control + n',
       action: function() {
