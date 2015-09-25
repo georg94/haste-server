@@ -7,8 +7,8 @@
 
 /* Chester Red */
 .hljs-variable,
-.hljs-attribute,
 .hljs-tag,
+.hljs-tag .hljs-title,
 .hljs-regexp,
 .ruby .hljs-constant,
 .xml .hljs-tag .hljs-title,
@@ -22,6 +22,7 @@
 }
 
 /* Chester Orange */
+.hljs-attribute,
 .hljs-number,
 .hljs-preprocessor,
 .hljs-pragma,
