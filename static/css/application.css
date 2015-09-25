@@ -88,12 +88,12 @@ textarea {
 }
 
 #box2 .function {
-	background: url(../img/function-icons.png);
 	width: 32px;
 	height: 37px;
 	display: inline-block;
 	position: relative;
 	color: #8FBCC8;
+	font-size: 23px;
 }
 
 #box2 .link embed {
