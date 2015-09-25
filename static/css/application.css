@@ -89,7 +89,7 @@ textarea {
 
 #box2 .function {
 	width: 32px;
-	height: 37px;
+	padding: 5px 0;
 	display: inline-block;
 	position: relative;
 	color: #8FBCC8;
